@@ -22,3 +22,4 @@ Kototinder — это мобильное приложение на Flutter, ко
 
 ## Сcылка на APK
 
+apk/app-release.apk
