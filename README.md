@@ -19,12 +19,20 @@ Kototinder — это мобильное приложение на Flutter, ко
 
 ### Главный экран
 
-![Главный экран](screenshots/main_screen.png)
+![Главный экран](screenshots/screenshot_main.jpg)
 ### Детальное описание
 
-![Детальное описание](screenshots/details_screen.png)
+![Детальное описание](screenshots/screenshot_detail.jpg)
+
+### Фильтр
+
+![Экран лайкнутых котиков](screenshots/screenshot_filter.jpg)
 
 ### Экран лайкнутых котиков
+
+![Экран лайкнутых котиков](screenshots/screenshot_liked_cats.jpg)
+
+![Экран лайкнутых котиков](screenshots/screenshot_apply_filter.jpg)
 
 ## Сcылка на APK
 
