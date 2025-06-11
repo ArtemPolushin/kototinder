@@ -1,15 +1,14 @@
 import 'dart:convert';
-
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:http/http.dart' as http;
 import '../model/cat_image.dart';
 
 class CatApi {
-  final String apiKey =
-      'live_yTPUbuFHkc342ZeZSJfkk1TdWqGwv09VuTURdPZn6GLUtOzA4kbfhS8kwHGpeFFL';
-
+  final String apiKey = dotenv.env['API_KEY'] ?? '';
+  final String uri = 'https://api.thecatapi.com/v1/images/search';
   Future<CatImage> fetchCatImage() async {
     final url = Uri.parse(
-      'https://api.thecatapi.com/v1/images/search',
+      uri,
     ).replace(queryParameters: {'has_breeds': '1', 'api_key': apiKey});
 
     final response = await http.get(url);
